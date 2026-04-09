@@ -1,9 +1,13 @@
 import './app.style.scss'
-import React from 'react'
+import Form from './components/Form/Form.jsx'
+import Content from './components/Content/Content.jsx'
+import Dialog from "./components/Dialog/Dialog.jsx"
 
 function App() {
   return (<>
-    App
+    <Form />
+    <Content />
+    <Dialog />
   </>)
 }
 

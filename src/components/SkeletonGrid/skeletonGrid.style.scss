@@ -1,0 +1,13 @@
+.skeleton-card {
+  aspect-ratio: 1;
+  border-radius: 8px;
+  background: rgba(39, 45, 57, 0.84);
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+  @for $i from 1 through 12 {
+    &:nth-child(#{$i}) { animation-delay: #{$i * 0.05}s; }
+  }
+}
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.4; }
+}
