@@ -5,7 +5,9 @@ Clean UI, fast search, and smooth user experience.
 
 **Live:** https://search-photos-tau.vercel.app
 
-## 🚀 Features
+---
+
+## Features
 
 - Search photos by keyword  
 - Responsive image gallery  
@@ -16,7 +18,7 @@ Clean UI, fast search, and smooth user experience.
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - React  
 - JavaScript (ES6+)  
