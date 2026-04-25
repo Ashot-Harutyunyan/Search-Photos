@@ -3,7 +3,7 @@
 A modern React application for searching and viewing photos using an external API.  
 Clean UI, fast search, and smooth user experience.
 
-**Live:** https://search-photos-tau.vercel.app
+Live: https://search-photos-tau.vercel.app
 
 ---
 
