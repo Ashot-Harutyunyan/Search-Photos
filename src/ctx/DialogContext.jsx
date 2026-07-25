@@ -26,7 +26,7 @@ export default function DialogContext({ children }) {
         dialogRef, modalData, openModal, closeModal
     }), [modalData])
 
-    return (<DialogCTX value={value}>{children}</DialogCTX>)
+    return <DialogCTX value={value}>{children}</DialogCTX>
 }
 
 export const useDialog = () => use(DialogCTX)

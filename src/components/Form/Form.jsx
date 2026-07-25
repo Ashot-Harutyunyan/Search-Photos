@@ -32,7 +32,7 @@ function Form() {
 
     const hasValue = inputValue.trim().length > 0
 
-    return (<form onSubmit={handleSubmit}>
+    return <form onSubmit={handleSubmit}>
         <div className="container-input-icons">
             <div className='container-input'>
                 <IoIosSearch />
@@ -48,7 +48,7 @@ function Form() {
             {hasValue && <IoCloseOutline onClick={handleClear} />}
         </div>
         <button type="submit">Search</button>
-    </form>)
+    </form>
 }
 
 export default Form

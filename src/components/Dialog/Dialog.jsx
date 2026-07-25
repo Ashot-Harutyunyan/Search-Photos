@@ -12,7 +12,7 @@ function Dialog() {
         if (e.target === e.currentTarget) closeModal()
     }
 
-    return (<dialog ref={dialogRef}>
+    return <dialog ref={dialogRef}>
         <div className={`dialog-context ${modalData ? 'active' : ''}`}
              onClick={(e) => handleClick(e)}>
             <div className='dialog-children-content'>
@@ -20,7 +20,7 @@ function Dialog() {
                 {modalData && <LazyLoadImage src={modalData.url} alt={modalData.description} effect="blur"/>}
             </div>
         </div>
-    </dialog>)
+    </dialog>
 }
 
 export default Dialog

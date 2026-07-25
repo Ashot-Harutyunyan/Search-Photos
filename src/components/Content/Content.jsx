@@ -40,7 +40,7 @@ function Content() {
                 />
     }
 
-    return (<section>
+    return <section>
         <div className='content-image'>
             {data && data.pages.map(page =>
                 page.results.map(({id, urls, description}) => {
@@ -52,7 +52,7 @@ function Content() {
         {isFetchNextPageError && <EmptyState icon="error" title="Something went wrong" text={'Error loading'} />}
         {isFetchingNextPage && <SkeletonGrid count={6} />}
         {hasNextPage && <button className='button-load-more' onClick={() => fetchNextPage()}>Load More</button>}
-    </section>)
+    </section>
 }
 
 export default Content
